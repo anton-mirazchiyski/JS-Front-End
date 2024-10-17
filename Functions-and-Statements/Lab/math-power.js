@@ -5,7 +5,7 @@ function solve(number, power) {
 console.log(solve(2, 8));
 
 
-solve2 = (number, power) => number ** power;
+const solve2 = (number, power) => number ** power;
 
 console.log(solve2(3, 4));
 
