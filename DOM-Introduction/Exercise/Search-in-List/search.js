@@ -22,5 +22,5 @@ function search() {
       }
    }
 
-   resultElement.textContent = `${matchesCount} matches found`
+   resultElement.textContent = `${matchesCount} matches found`;
 }
