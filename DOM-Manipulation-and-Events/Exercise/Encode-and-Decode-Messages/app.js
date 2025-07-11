@@ -9,7 +9,7 @@ function encodeAndDecodeMessages() {
 
     function encodeMessage() {
         const text = firstTextareaElement.value;
-        let encodedMessage = ''
+        let encodedMessage = '';
 
         for (let i = 0; i < text.length; i++) {
             const newCode = text.charCodeAt(i) + 1;
